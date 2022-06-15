@@ -1,0 +1,37 @@
+
+   List<Map<String,dynamic?>> famil= [  {"name": null, "job":"teacher" ,
+    "food": "pasta","cloths":"shose",
+
+   "school":null, "job":"doctor" } ];
+
+  Map  information={"week" :  7,"months" : 12, "day" :"24H ", "hour":"60m"};  //map
+   
+   List coffee=[{"black":[{"cup":1},{"cup":2},3,"4 cups"]},{"matcha":[3]}, "late"]; 
+
+   Map family={"grafathernd":{"child":3},"father":{"child":4},"son":{"child":2}};//ماب جواها ماب
+
+    Map home={"room":["bed, desk,table"],"kitchen":["table,chair,spoon"] };//ماب داخلها ليست 
+  
+  List sweet=[[1,2 ,"3"],"donuts", ["4"],"cookies", 3, "biscuits "];//list of list
+main(){
+  
+  print(famil[0]);
+
+
+}
+
+
+
+Standard input : هي بيانات تدخل من الكيبورد يقوم اليوزر بادخالها فهناك ميثود اسمها 
+readLineSync();
+تقوم هذي الميثود باخذ السترينق عند إدخالها من قبل اليوزر وطباعتها فورا لكن عندما تدخل قيم غير السترينق فانها لاتطبعها هذي الميثود لكن لديها ميثود أخرى توضع جنب ميثود السترينق وهي 
+In.parse();
+هذي الميثود للارقام وهي أيضا تحول السترينق الى ارقام  عند وضعها ف يحسب لي عدد السترينق الحروف ويحولها الى ارقام مثلا يطلب حرف معين في النص الظاهر والميثود تحسب لي عدد الحرف المكرر في النص وتطبع قيمته عدده في الاوت بوت
+
+
+Standard output:يطبع لي عدد اللسطر الموجوجه في النص ويطبع أيضا محتويات الموجوجه في النص وهناك عدة ميثود تستخدم معها 
+Write();
+Writeln();
+writeAll();
+addStream();
+print();

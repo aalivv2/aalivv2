@@ -1,0 +1,46 @@
+
+ Switch
+تستخدم سويتش لتحديد وتنفيذ عمليات مطلوبه 
+عندما يتم المقارنة فأنها سوف تنفذ العملية المطلوبة
+case ان القيمة داخل السويتش تقارن مع كل قيمة 
+في السويتش نستخدمها للوقف والخروج من السويتش وعدم التكملةbreak 
+تستخدم عندما لايكون هناك خيارات أخرى في السويتش والخروج default 
+
+ main(){
+
+            printrr([2,4,6,8]);
+           sum();
+          print(mult([2,4,6,8]));
+          print(msg());
+   }
+
+    List<int> number=[2,4,6,8];
+
+      String msg(){
+        
+        String ms= "Hello waad";
+      
+        return  ms ;
+      }
+
+  
+       int mult(List<int> number){
+          
+          int x =number.reduce((value, element) =>value*element );
+        return x;
+          
+       }
+
+
+     printrr(List<int>number){
+        
+        print(number);
+     }
+
+
+    sum(){
+
+      int summ=number.reduce((value, element) =>value+element );
+
+         print(summ);
+    }

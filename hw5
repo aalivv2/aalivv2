@@ -1,0 +1,23 @@
+Abstract:
+There are include to things:
+1)	Abstract class 
+2)	Interface(implements)
+
+          Abstract class:
+abstract class called Abstract by its keyword and cannot change by programmer , and It cannot be instantiated, also, can have constructors and static methods , and can have non- Abstract method in class Abstract , method abstract doesn’t have body, when contain abstract class and other class you must write word(extends) ,cannot be used to create object , so, cannot have constructor ,
+       For example in abstract class:  abstract class student{}
+for example in abstract method:  abstract void grade();
+
+        Interface(implements) :
+           - word write(implements) (interface) 
+          - the implement keyword its implement an interface
+         - the interface keyword its used class only of abstract method 
+          - it cannot be used to create objects so, interface cannot contain constructor.
+            -the interface method doesn’t have the body because the body implement the another class
+         -  interface attributes can public , static , final
+        - interface method can abstract and public 
+         - when implementation of an interface you must override all method in another class 
+         - and you can create multiple interfaces and implementation the class for example:
+            Interface car{}
+            Interface bike{}
+          Class human implements car , bike{}

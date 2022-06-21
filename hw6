@@ -1,0 +1,16 @@
+Difference between:
+
+Extend:  there are two types,  the first is about Abstract and the other is about inheritance 
+The inheritance special is that I can choose the method and the variables I want without (mandatory) , the abstract it the method override (mandatory) is printed with the same values as the existing ones , but the variables not mandatory transferred to the other class , as they are already defined 
+
+Implement: everything is printed in the override class of variables and methods (mandatory) and new values are filled in.
+
+With:  I can choose more than one class and associate them with one class by writing the word (with) , so I will be able to take more than one variables and methods from each class I linked to(with) 
+
+Class and abstract class:
+
+          Abstract class:
+abstract class called Abstract by its keyword and cannot change by programmer , and It cannot be instantiated, also, can have constructors and static methods , and can have non- Abstract method in class Abstract , method abstract doesn’t have body, when contain abstract class and other class you must write word(extends) ,cannot be used to create object , so, cannot have constructor ,
+     
+     class:
+  is a class that has an implementation for all of its methods, it can also extend abstract class or implement an interface and its can be instantiated.
